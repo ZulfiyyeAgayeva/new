@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .logo img {
+  width: 60%;
+}
+
+.green {
+  color: rgb(18, 185, 117);
+}
+
+.btn {
+  padding: 10px 35px;
+  background-color: rgb(18, 185, 117);
+  border-radius: 20px;
+  color: white;
+}
+
+.col-lg-4 {
+  width: 30%;
+  margin: 0 10px;
+  height: 200px;
+}
+.col-lg-4 i {
+  font-size: 50px;
+  padding-top: 30px;
+}
+.col-lg-4:hover {
+  box-shadow: 10px 10px 10px 12px rgba(201, 199, 199, 0.7);
+}
+
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.flexible-page {
+  margin-top: 100px;
+}
+.flexible-page .img img {
+  height: 100vh;
+}
+.flexible-page .lenght-line {
+  background-color: rgb(206, 202, 202);
+  height: 12px;
+  width: 75%;
+  border-radius: 5px;
+}
+.flexible-page .lenght-line .color {
+  height: 12px;
+  width: 79%;
+  background-color: rgb(26, 80, 26);
+}
+.flexible-page .text p {
+  padding: 30px 0;
+  width: 80%;
+}
+
+.gallery {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.gallery h1 {
+  width: 80%;
+}
+
+.link span {
+  transition: 0.5s;
+}
+.link span:hover {
+  color: rgb(12, 226, 141);
+}
+
+.comment {
+  width: 70%;
+  margin: 0 auto;
+}
+.comment h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.header {
+  width: 65%;
+  margin: 5% auto;
+}
+.header .text {
+  width: 80%;
+  text-align: center;
+  margin: 2% auto;
+}
+.header .center {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.header .line {
+  width: 3%;
+  margin: 2% auto;
+  height: 2px;
+  background-color: rgb(18, 185, 117);
+}
+
+#carts .kart {
+  height: 80vh;
+  padding-top: 50px;
+}
+#carts .kart .big-center {
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */
